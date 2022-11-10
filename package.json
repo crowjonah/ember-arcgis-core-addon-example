@@ -26,13 +26,15 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
+    "@arcgis/core": "^4.23.0",
+    "ember-auto-import": "^2.4.2",
     "ember-cli-babel": "^7.26.11",
     "ember-cli-htmlbars": "^6.1.0",
     "ember-cli-typescript": "^5.2.0"
   },
   "devDependencies": {
-    "@arcgis/core": "^4.25.0-next.20221013",
     "@ember/optional-features": "^2.0.0",
+    "@ember/render-modifiers": "^2.0.4",
     "@ember/test-helpers": "^2.8.1",
     "@embroider/test-setup": "^1.8.3",
     "@glimmer/component": "^1.1.2",
@@ -44,10 +46,10 @@
     "@types/qunit": "^2.19.3",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-    "ember-auto-import": "^2.4.2",
     "ember-cli": "~4.4.0",
     "ember-cli-dependency-checker": "^3.3.1",
     "ember-cli-inject-live-reload": "^2.1.0",
+    "ember-cli-inline-content": "^0.4.1",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
     "ember-cli-typescript-blueprints": "^3.0.0",
@@ -66,13 +68,15 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-qunit": "^7.3.1",
+    "esri-loader": "^3.1.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
     "typescript": "^4.8.4",
-    "webpack": "^5.74.0"
+    "webpack": "^5.74.0",
+    "webpack-require-from": "^1.8.6"
   },
   "engines": {
     "node": "14.* || >= 16"

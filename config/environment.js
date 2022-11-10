@@ -1,5 +1,7 @@
 'use strict';
 
 module.exports = function (/* environment, appConfig */) {
-  return {};
+  return {
+    arcgisCoreVersion: require('@arcgis/core/package.json').version,
+  };
 };
